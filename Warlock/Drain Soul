@@ -1,0 +1,11 @@
+//Casts Drain Soul(Rank 1) and deletes a Soul Shard from the last slot of your shard bag. This version will find your shard bag for you.
+
+#showtooltip
+/cast Drain Soul(Rank 1)
+/run for i=1,4 do n=GetBagName(i)if n then if n:find('[Sl][oca][ulk]') then if GetContainerNumFreeSlots(i)==0 then PickupContainerItem(i,GetContainerNumSlots(i))DeleteCursorItem()break end end end end
+
+//Casts Drain Soul(Rank 1) and deletes a Soul Shard from the last slot of your shard bag. Your shard bag needs to be in the left-most slot.
+
+#showtooltip
+/cast Drain Soul(Rank 1)
+/run local a=GetBagName(4); if a=="Core Felcloth Bag" or a=="Felcloth Bag" or a=="Soul Pouch" or a=="Box of Souls" or a=="Small Soul Pouch" then PickupContainerItem(4,GetContainerNumSlots(4)) DeleteCursorItem()end

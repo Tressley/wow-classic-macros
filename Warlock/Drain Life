@@ -1,0 +1,5 @@
+//Dismounts and casts highest rank Drain Life.
+
+#showtooltip
+/dismount
+/cast [nochanneling:drain life]Drain Life

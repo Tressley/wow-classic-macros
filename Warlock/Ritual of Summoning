@@ -1,0 +1,6 @@
+//Announces and casts Ritual of Summoning and sends a whisper to the target.
+
+#showtooltip
+/cast Ritual of Summoning
+/yell Lay thy hands upon my summoning hole, brothers and sisters! For we must summon %t!
+/run SendChatMessage(strjoin("","Incoming ticket to ",GetMinimapZoneText(),"."),"WHISPER",nil,UnitName("target"))

@@ -1,0 +1,6 @@
+//Dismounts and casts highest rank Fear.
+
+#showtooltip
+/dismount
+/stopcasting
+/cast [nochanneling:fear]Fear

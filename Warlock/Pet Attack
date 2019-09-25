@@ -1,0 +1,6 @@
+//Dismounts and sends pet in to attack target, then sets pet to defensive.
+
+#showtooltip
+/dismount
+/petattack
+/petdefensive

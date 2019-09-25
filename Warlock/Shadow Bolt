@@ -1,0 +1,5 @@
+//Dismounts and casts highest rank Shadow Bolt.
+
+#showtooltip
+/dismount
+/cast [nochanneling:shadow bolt]Shadow Bolt

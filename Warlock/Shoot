@@ -1,0 +1,3 @@
+//Allows you to spam your Shoot ability. Note: This will stop working occasionally. You can /reload to fix it.
+
+/castsequence !Shoot,!Shoot

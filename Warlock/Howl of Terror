@@ -1,0 +1,6 @@
+//Dismounts and casts highest rank Howl of Terror.
+
+#showtooltip
+/dismount
+/stopcasting
+/cast [nochanneling:howl of terror]Howl of Terror

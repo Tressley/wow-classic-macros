@@ -1,0 +1,5 @@
+//Creates Soulstone on left-click, applies Soulstone to your target with right-click, and applies Soulstone to you with shift+right-click.
+
+#showtooltip
+/cast [btn:1]Create Soulstone(Major)
+/use [nomod,btn:2]Soulstone(Major);[mod:shift,@player,btn:2]Soulstone(Major)

@@ -1,0 +1,7 @@
+//Creates Spellstone on right-click, equips Spellstone on first press, uses Spellstone and equips your original off-hand on second press.
+
+#showtooltip
+/cast [btn:2]Create Spellstone
+/use Spellstone
+/equip name_of_offhand
+/equip Spellstone
